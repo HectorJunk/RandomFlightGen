@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomFlightGen", "RandomFlightGen\RandomFlightGen.csproj", "{174FCCBF-64CD-40F4-9150-4A6B1ECF2EF3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DomainModel", "DomainModel\DomainModel.shproj", "{8E0A20F9-5208-442C-82B3-978F48E3C427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{174FCCBF-64CD-40F4-9150-4A6B1ECF2EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174FCCBF-64CD-40F4-9150-4A6B1ECF2EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174FCCBF-64CD-40F4-9150-4A6B1ECF2EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174FCCBF-64CD-40F4-9150-4A6B1ECF2EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF37661B-57CA-4DFF-84C4-A1748CEBF0FF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DomainModel\DomainModel.projitems*{174fccbf-64cd-40f4-9150-4a6b1ecf2ef3}*SharedItemsImports = 4
+		DomainModel\DomainModel.projitems*{8e0a20f9-5208-442c-82b3-978f48e3c427}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
